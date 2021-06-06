@@ -1,0 +1,56 @@
+Git
+
+pwd: untuk menampilkan directory aktif
+Git init: untuk menginisialisasi .git
+Git status: untuk mengecek file-file yang ada direpo
+Git Add <nama file> : untuk menambahkan file-file baru yang sesuai dengan <nama filenya>
+Git Add . : untuk menambahkan semua file-file baru
+Git rm --cached <nama file>: untuk me-remove file yang ada di stagging area
+Git Commit: jika pesan commitnya panjang
+Git commit -m "isi pesan perubahan": untuk menambahkan pesan ke commit terbaru
+
+Git log: untuk melihat semua commit yagn telah dilakukan
+Git log -3: untuk melihat 3 commit terakhir
+Git log --<nama file>: untuk melihat spesifik terhadap <nama file>
+Git checkout <5 digit awal kode hash-nya> -- <nama file>: untuk mengembalikan ke sebuah commit awal
+Git commit -am "isi pesan": untuk menambahkan dan memasukan pesan commit jika <file> tersebut berstatus modified
+
+Git branch: untuk menampilkan branch yang tersedia
+Git branch <nama branch>: untuk membuat branch baru
+Git log --all --decorate --oneline --graph: untuk menampilkan history dalam bentuk graph
+Git checkout <nama branch>: untuk berpindah branch
+
+Git merge <nama branch>: untuk menggabungkan 2 branch
+Git branch -d <nama branch>: untuk menghapus branch yang sudah di merge
+Git branch -D <nama branch>: untuk menghapus branch dalam kondisi apa pun
+Git brach --merged: untuk melihat branch yang sudah di merge
+
+Git commit <7 digit hash>: untuk ke branch commit sebelumnya 
+
+Git clone <link repo>: untuk mengclone github ke desktop
+Git remote: untuk me-remote repo
+Git remote -v: untuk melihat detail repo remotenya
+Gut push: untuk mengirim perubahan direpo ke github 
+
+Git fetch: untuk mengecek commit yg ada diremote sudah sejauh mana
+Git pull: untuk menangani apabila terdapat conflik antara git dengan github
+
+merubah login akun git
+git config --global user.nama "isi dengan username"
+git config -- global user.email "isi dengan email"
+
+git config --local user.nama "isi dengan username" di satu repo tertentu
+git config -- local user.email "isi dengan email"di satu repo tertentu
+
+Git config --list: untuk melihat akun git yang sedang di pakai = cara exitnya: :q
+  
+alias graph="Git log --all --decorate --oneline --graph": untuk membuat code alias
+Clear: untuk menhapus history code
+
+exit Git log -> q
+
+code editor VIM:
+exit: esc -> :q!  = untuk keluar dari vim
+exit: esc -> :wq! = untuk keluar dari vim dan save perubahannya
+
+
