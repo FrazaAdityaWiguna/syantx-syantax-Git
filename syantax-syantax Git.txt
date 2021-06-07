@@ -8,6 +8,7 @@ Git Add . : untuk menambahkan semua file-file baru
 Git rm --cached <nama file>: untuk me-remove file yang ada di stagging area
 Git Commit: jika pesan commitnya panjang
 Git commit -m "isi pesan perubahan": untuk menambahkan pesan ke commit terbaru
+Git commit --amend : untuk mengedit pesan commit
 
 Git log: untuk melihat semua commit yagn telah dilakukan
 Git log -3: untuk melihat 3 commit terakhir
