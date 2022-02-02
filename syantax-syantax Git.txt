@@ -45,7 +45,7 @@ git config -- local user.email "isi dengan email"di satu repo tertentu
 
 Git config --list: untuk melihat akun git yang sedang di pakai = cara exitnya: :q
   
-alias graph="Git log --all --decorate --oneline --graph": untuk membuat code alias
+alias graph="git log --all --decorate --oneline --graph": untuk membuat code alias
 Clear: untuk menhapus history code
 
 exit Git log -> q
